@@ -1,0 +1,112 @@
+.profil{
+    display: flex;
+    padding: 2rem 0;
+
+    width: 100%;
+    &__img{
+        width: 7rem;
+        height: 7rem;
+
+         img{
+            width: 7rem;
+            height: 7rem;
+         }
+
+    }
+    &__text{
+        color: $color-primary-light;
+        padding:0 0.5rem;
+        text-transform: capitalize;
+      
+        span{
+            font-size: 1.5rem;
+        }
+    }
+
+}
+
+.user-panel-1{
+    border-bottom: 1px solid #ccc;
+    padding: 1rem 0;
+   
+}
+
+.see-all{
+    font-size: 1.5rem;
+    color: $color-primary;
+    font-weight:600;
+  
+    padding-left: 3rem;
+    cursor: pointer;
+}
+
+.user-icons{
+    display: flex;
+    flex-direction: column;
+
+    .fa-user-secret{
+        background-color: #F1F2F7;
+    }
+    i{
+        font-size: 1.5rem;
+        color:$icon-color;
+        padding: 1rem;
+
+        span{
+            font-family: Helvetica, sans-serif;
+            padding:0 1rem ;
+            font-weight: 100;
+            color: rgb(56, 55, 55);
+            
+            text-transform: capitalize;
+        }
+    }
+}
+
+
+.form3{
+    display: flex;
+    width: 100%;
+    border: 1px solid #ccc;
+    margin-bottom: 1rem;
+}
+.form3 input[type=text]{
+    padding: 4px;
+    font-size: 1.5rem;
+    border: none;
+    width: 100% !important;
+
+}
+
+.form3 button {
+    padding: .5rem .6rem;
+    color: grey;
+     background: $color-white;
+     border-right: 1px solid #ccc !important;
+     border-style: solid;
+     border-top-left-radius: 3px;
+     border-bottom-left-radius: 3px;
+    font-size: 1.7rem;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .form3 button:hover {
+    background: rgb(212, 209, 209);
+  }
+
+ 
+
+  .images{
+    display: flex;
+    flex-wrap: wrap;
+
+      img{
+          
+        width: 4.4rem;
+        object-fit: fill;
+        height: 4.4rem;
+      }
+
+  }
+

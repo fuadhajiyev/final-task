@@ -1,0 +1,127 @@
+.middile-header{
+    padding-top: 7rem ;
+    padding-left: 2rem;
+  
+
+    .middile-header-left{
+        width: 100%;
+        margin-right: 2rem;
+        box-sizing: border-box;
+    }
+
+    .bars{
+        border-top: 0.15rem solid #ccc;
+        
+        
+        .share{
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: grey;
+        }
+
+        i{
+            font-size: 1.5rem;
+            color: $icon-color;
+            padding: 1rem;
+            cursor: pointer;
+
+            span{
+                font-family: Helvetica, sans-serif;
+                padding: 0 1rem;
+                font-weight:bold;
+                color: $color-primary;
+
+                text-transform: capitalize;
+
+            }
+        }
+
+    }
+
+}
+
+.form4{
+    width: 100%;
+    border: 1px solid #ccc;
+    position: relative;
+
+}
+.fa-sort-up{
+    position: absolute;
+    color: black;
+    left: 9rem;
+    top: -.9rem;
+    color: #ccc;
+    font-size: 2rem;
+
+
+}
+
+.form4 input[type=text] {
+ padding: 6px;
+font-size: 1.7rem;
+border: none;
+width: 100% !important;
+border-top-left-radius: 3px;
+border-bottom-left-radius: 3px;
+}
+
+
+.status{
+    font-size: 1.5rem;
+    color: #383737;
+    a{
+        text-decoration: none;
+        color: $color-primary;
+        cursor: pointer;
+    };
+
+}
+
+.video{
+    width: 100%;
+    height: 100%;
+    
+}
+
+.representment{
+    i{
+        font-size: 1.4rem;
+        cursor: pointer;
+        a{
+            color: grey;
+           padding-left: 1rem;
+           font-family:Helvetica, sans-serif;
+        }
+    }
+    span{
+        font-size: 1.3rem;
+        padding: 0 .7rem;
+
+    }
+
+    .like-section{
+        padding: 1rem 0;
+        background-color: #F1F2F7;
+
+        i{
+        
+            span{
+                font-family:Helvetica, sans-serif;
+                padding: 0;
+                font-weight: 100;;
+          }
+          .likes{
+            color: #383737;
+          }
+        
+        }
+    }
+}
+
+.form5{
+        background-color: #F1F2F7;
+        padding: 1rem;
+        margin: .5rem 0;
+
+}
